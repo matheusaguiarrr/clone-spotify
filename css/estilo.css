@@ -1,0 +1,6 @@
+body { 
+    background: url(../imagens/capa.png), 
+                url(../imagens/ruido.png), 
+                linear-gradient(60deg, #FF4169, #7C26F8); 
+    background-attachment: fixed; 
+}
