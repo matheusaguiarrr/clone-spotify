@@ -4,3 +4,29 @@ body {
                 linear-gradient(60deg, #FF4169, #7C26F8); 
     background-attachment: fixed; 
 }
+/*
+- Barra de Navegação
+*/
+nav.navbar-transparente {
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #9Bf0E1;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, .5);
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.divisor {
+    width: 1px;
+    background: #FFFFFF;
+    margin: 10px 15px;
+}
