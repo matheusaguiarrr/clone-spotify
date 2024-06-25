@@ -1,5 +1,6 @@
 html, body, #home {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body { 
@@ -71,6 +72,13 @@ Section Home
     color: #000000;
 }
 
+.rotacionar {
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
 /*
 Tipografia
 */
@@ -82,11 +90,41 @@ h1 {
     color: #FFFFFF;
 }
 
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#servicos h2, h3 {
+    color: #7C25F8;
+}
+
+#recursos h2 {
+    color: #FFFFFF;
+}
+
+#recursos h3 {
+    color: #9Bf0E1;
+}
+
 /* Extra Small Devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
     h1 {
         font-size: 2.5em;
-    } 
+    }
+    h2 {
+        font-size: 1.5em
+    }
+    h3 {
+        font-size: 1.2em;
+    }
     .btn-custom {
         margin: 5px 0px;
     }
@@ -94,7 +132,7 @@ h1 {
         padding-left: 15px;
     }
     .navbar-toggler {
-        margin-right: 3em;
+        margin-right: 1em;
     }
     .navbar-nav {
         padding-left: 15px;
@@ -105,17 +143,23 @@ h1 {
 @media (min-width: 576px) and (max-width: 767.98px) { 
     h1 {
         font-size: 3em;
-    } 
+    }
+    h2 {
+        font-size: 1.5em
+    }
+    h3 {
+        font-size: 1.2em;
+    }
     .btn-custom {
         margin: 5px 0px;
     }
     .navbar-toggler {
-        margin-right: 3em;
+        margin-right: 1.5em;
     }
 }
 
 /* Medium Devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) { h1 {font-size: 4em;} }
+@media (min-width: 768px) and (max-width: 991.98px) { h1 {font-size: 4em;} h2 {font-size: 2em} h3 {font-size: 1.5em;} }
 
 /* Large Devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { h1 {font-size: 5em;} }
